@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Buy groceries",
+      "description": "Milk, eggs, bread, and vegetables",
+      "status": "incomplete",
+      "userId": "user_id_1"
+    },
+    {
+      "title": "Finish project proposal",
+      "description": "Write project proposal document and send it to the client",
+      "status": "incomplete",
+      "userId": "user_id_1"
+    },
+    {
+      "title": "Go for a run",
+      "description": "Run for 30 minutes in the park",
+      "status": "incomplete",
+      "userId": "user_id_2"
+    },
+    {
+      "title": "Call mom",
+      "description": "Wish her happy birthday",
+      "status": "incomplete",
+      "userId": "user_id_3"
+    }
+  ]
+  
