@@ -45,19 +45,19 @@ router.delete('/:id', async (req, res) => {
     }
 });
 
-var userDetails = require("./Controller/user");
-router.post("/signup",userDetails.signup);
-router.post("/signin" , userDetails.signin);
+// var userDetails = require("./Controller/user");
+// router.post("/signup",userDetails.signup);
+// router.post("/signin" , userDetails.signin);
 
-router.post("/generateToken", (req, res) => {
-    // Assuming req.body contains user information (e.g., username, user id, etc.)
-    const userData = req.body;
+// router.post("/generateToken", (req, res) => {
+//     // Assuming req.body contains user information (e.g., username, user id, etc.)
+//     const userData = req.body;
 
-    // Generate JWT token using the provided user data and the secret key
-    const token = jwt.sign(userData, SECRET_KEY);
+//     // Generate JWT token using the provided user data and the secret key
+//     const token = jwt.sign(userData, SECRET_KEY);
 
-    // Send the generated token as a response
-    res.json({ token });
-});
+//     // Send the generated token as a response
+//     res.json({ token });
+// });
 
 module.exports = router;
